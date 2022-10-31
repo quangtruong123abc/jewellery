@@ -1,0 +1,60 @@
+/* Dung chung */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  padding: auto;
+  width: 90%;
+}
+
+/* Header */
+header .container{
+  width: 95%;
+}
+.header_content {
+  display: flex;
+  width: 100%;
+  margin-top: 2%;
+  align-items: center;
+  z-index: 99;
+}
+
+.header__left {
+  width: 40%;
+  
+}
+.header__left a{
+   text-decoration: none;
+   display: flex;
+    align-items: center;
+}
+.header__left img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.header__left span{
+    margin-top: 2%;
+    font-size: 22px;
+    font-weight: 700;
+    color: black;
+
+}
+
+.header__right {
+  width: 60%;
+}
+
+.header__right__item ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+
+
+/* Slider */
